@@ -54,7 +54,6 @@ yellow.addEventListener('click', function () {
   mask.style.backgroundColor = 'yellow';
   eyes.style.border = '9px solid skyblue';
   eye2.style.border = '9px solid skyblue';
-
 })
 
 
