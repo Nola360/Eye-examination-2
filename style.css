@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: green;
+  /* background:rgb(0, 47, 255); */
+  
+}
+
+.ghost-container {
+  background: rgb(255, 0, 0);
+  min-height: 300px;
+  margin-top: 250px;
+}
+
+
+button {
+  /* display: block; */
+  padding: 8px 16px;
+   font-size: 16px;
+   border-radius: 4px;
+}
+
+.eyes {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.eye {
+  width: 180px;
+  height: 180px;
+  background: white;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  margin: 60px;
+}
+
+
+.ball {
+  width: 100px;
+  height: 100px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
